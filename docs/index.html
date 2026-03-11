@@ -454,6 +454,47 @@
             color: #94a3b8;
         }
 
+        .cert-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 14px;
+            margin-top: 40px;
+            padding: 16px 24px;
+            background: rgba(139, 92, 246, 0.1);
+            border: 1px solid rgba(139, 92, 246, 0.4);
+            border-radius: 12px;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .cert-badge:hover {
+            background: rgba(139, 92, 246, 0.2);
+            border-color: #8b5cf6;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(139, 92, 246, 0.25);
+        }
+
+        .cert-icon {
+            font-size: 32px;
+            flex-shrink: 0;
+        }
+
+        .cert-text {
+            text-align: left;
+        }
+
+        .cert-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: #e2e8f0;
+        }
+
+        .cert-issuer {
+            font-size: 13px;
+            color: #a78bfa;
+            margin-top: 3px;
+        }
+
         .code-preview {
             background: #1e293b;
             border-radius: 8px;
@@ -520,10 +561,10 @@
 
     <section class="hero">
         <div class="hero-content">
-            <h1>Windows Automation Engineer</h1>
-            <p class="subtitle">Solving Modern MSP Challenges Through Intelligent Automation</p>
+            <h1>Automation & AI Engineer</h1>
+            <p class="subtitle">Solving Modern MSP Challenges Through Intelligent Automation & AI</p>
             <p class="tagline">
-                Specializing in PowerShell, RMM platforms, and API integrations that eliminate bottlenecks 
+                Specializing in PowerShell, RMM platforms, and AI-powered tooling that eliminate bottlenecks
                 and scale operations for managed service providers
             </p>
             <div class="cta-buttons">
@@ -537,8 +578,8 @@
         <div class="container">
             <h2 class="section-title">About Me</h2>
             <p class="section-subtitle">
-                10+ years of IT experience focused on automation, infrastructure management, and solving 
-                complex problems that didn't exist until modern technology made them possible
+                10+ years of IT experience focused on automation, AI integration, and infrastructure management —
+                solving complex problems that didn't exist until modern technology made them possible
             </p>
             
             <div class="about-content">
@@ -556,9 +597,17 @@
                         business problems.
                     </p>
                     <p>
-                        I continue to learn and adapt as the technology evolves, ensuring my solutions 
-                        leverage the latest capabilities while maintaining stability and reliability.
+                        I continue to push into AI — building multi-agent pipelines, local LLM tooling,
+                        and autonomous systems that go beyond traditional scripting to solve problems at
+                        a new level of scale and intelligence.
                     </p>
+                    <a href="http://verify.skilljar.com/c/7zsovgc3eqrc" target="_blank" class="cert-badge">
+                        <div class="cert-icon">🎓</div>
+                        <div class="cert-text">
+                            <div class="cert-title">AI Fluency: Framework &amp; Foundations</div>
+                            <div class="cert-issuer">Anthropic &mdash; Verified Certificate</div>
+                        </div>
+                    </a>
                 </div>
                 
                 <div class="stats">
