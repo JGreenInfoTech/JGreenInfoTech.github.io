@@ -561,11 +561,11 @@
 
     <section class="hero">
         <div class="hero-content">
-            <h1>Automation & AI Engineer</h1>
-            <p class="subtitle">Solving Modern MSP Challenges Through Intelligent Automation & AI</p>
+            <h1>Automation Engineer & Systems Administrator</h1>
+            <p class="subtitle">Solving Modern MSP and SMB Challenges Through Intelligent Automation & Monitoring</p>
             <p class="tagline">
-                Specializing in PowerShell, RMM platforms, and AI-powered tooling that eliminate bottlenecks
-                and scale operations for managed service providers
+                Specializing in PowerShell, Python, RMM platforms, and creating workflows that eliminate bottlenecks
+                and scale operations for managed service providers. AI fluency helps keep me on the cutting edge of technology.
             </p>
             <div class="cta-buttons">
                 <a href="#projects" class="btn btn-primary">View My Work</a>
@@ -905,26 +905,6 @@
                 </div>
             </div>
 
-            <div class="code-preview">
-                <code>
-<span class="comment"># Example: Self-Healing Service Account Privilege Check</span>
-<span class="keyword">function</span> <span class="function">Repair-ServiceAccountPrivilege</span> {
-    <span class="keyword">param</span>(
-        [<span class="keyword">string</span>]<span class="variable">$ServiceAccount</span>,
-        [<span class="keyword">string</span>]<span class="variable">$RequiredPrivilege</span>
-    )
-    
-    <span class="comment"># Check current privileges via LSA API</span>
-    <span class="variable">$currentPrivs</span> = <span class="function">Get-AccountPrivileges</span> -Account <span class="variable">$ServiceAccount</span>
-    
-    <span class="keyword">if</span> (<span class="variable">$currentPrivs</span> -notcontains <span class="variable">$RequiredPrivilege</span>) {
-        <span class="function">Write-Log</span> <span class="string">"Missing privilege detected. Auto-healing..."</span>
-        <span class="function">Grant-Privilege</span> -Account <span class="variable">$ServiceAccount</span> -Privilege <span class="variable">$RequiredPrivilege</span>
-        <span class="keyword">return</span> <span class="string">"Repaired"</span>
-    }
-    <span class="keyword">return</span> <span class="string">"Healthy"</span>
-}
-                </code>
             </div>
         </div>
     </section>
@@ -1031,7 +1011,7 @@
                     <a href="mailto:johnathan.green88@gmail.com" class="contact-btn">
                         <span>📧</span> Email Me
                     </a>
-                    <a href="https://linkedin.com/in/yourprofile" class="contact-btn" target="_blank">
+                    <a href="https://linkedin.com/in/jgreenit" class="contact-btn" target="_blank">
                         <span>💼</span> LinkedIn
                     </a>
                     <a href="https://github.com/JGreenInfoTech" class="contact-btn" target="_blank">
